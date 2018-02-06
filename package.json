@@ -1,0 +1,31 @@
+{
+  "name": "ginit",
+  "version": "1.0.0",
+  "description": "\"git init\" on steroids",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "author": "Matthew Betts",
+  "license": "ISC",
+  "bin": {
+    "ginit": "bin/index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^14.0.8",
+    "chalk": "^2.3.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "configstore": "^3.1.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.1.0",
+    "lodash": "^4.17.5",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.89.0",
+    "touch": "^3.1.0"
+  }
+}
